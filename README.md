@@ -10,7 +10,7 @@ O Plano de Desenvolvimento de Software é usado por estas pessoas:
 - Membros da equipe do projeto utilizam-no para entender o que precisam fazer, quando precisam fazê-lo e quais são as outras atividades das quais eles dependem.
 
 ## Qual a principal idéia deste projeto?
- a modalidade digital em forma de jogo do Univag XP, com estilo Top-Down (visão de cima para baixo) de gênero RPG, permitindo ao jogador explorar a representação em pixel art de trechos do campus da Univag.
+É a modalidade digital em forma de jogo do Univag XP, com estilo Top-Down (visão de cima para baixo) de gênero RPG, permitindo ao jogador explorar a representação em pixel art de trechos do campus da Univag.
 O projeto GameVag propõe agregar valor à instituição, tendo em vista o mercado de games, que cresce cada vez mais e sua receita é maior do que a indústria do cinema e da música somados.
 Almejamos trazer ao público, sedo ele: aluno, ex-aluno ou até mesmo potenciais alunos, uma experiência divertida; baseado na nossa experiência com o Univag XP. Mostrando assim para o público que na Instituição tem espaço para os entusiastas e estudiosos do ramo de games.
 
