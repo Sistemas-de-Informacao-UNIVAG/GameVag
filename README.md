@@ -1,34 +1,35 @@
 ##GAMEVAG
 =========
 
-Projeto Código-Aberto de Sistema de Boletos bancários em PHP
+Projeto de desenvolvimento de game baseado no Univag XP.
 
 ## Qual o principal motivo deste projeto?
-Este projeto foi criado por Elizeu Alcantara desde Maio/2006 e teve origem do Projeto BBBoletoFree que tiveram colaborações de Daniel William Schultz e Leandro Maniezo que por sua vez foi derivado do PHPBoleto de João Prado Maia e Pablo Martins F. Costa.
-
-Criar um sistema de geração de Boletos que seja mais simples do que o PhpBoleto e que se estenda ao desenvolvimento de boletos dos bancos mais usados no mercado, além do Banco do Brasil do projeto BBBoletoFree. Este sistema é de Código Aberto e de Livre Distribuição conforme Licença GPL.
-
-Este projeto visa atender exclusivamente aos profissionais e desenvolvedores na área técnica de programação PHP dos boletos, portanto se faz necessário conhecimento desejado e estudo do mesmo para a perfeita configuração do boleto a ser usado, sendo de inteira responsabilidade do profissional a instalação, funcionamento, testes e compensação do mesmo em conta bancária, pois não damos suporte técnico, portanto mensagens enviadas a nós com dúvidas gerais, técnicas ou solicitações de Suporte não serão respondidas.
-
-O projeto BoletoPhp não tem foco na questão administrativa, comercial ou jurídica, pois isto compete exclusivamente aos bancos devido as suas particularidades existentes de cada carteira de cada boleto. Maiores informações sobre o conceito de Boleto de Cobrança, você pode acessar aqui o site da Wikipédia
+O Projeto de Desenvolvimento de Software GameVAG tem como objetivo a permissão do usuário para que explore e compreenda como funciona a estrutura da Universidade em forma de jogo com vários desafios tornando intuitivo e divertido. Isso permite que uma pessoa possa se interessar e conhecer a instituição a partir de um modelo virtual. 
+O Plano de Desenvolvimento de Software é usado por estas pessoas: 
+- O gerente de projeto utiliza-o para planejar o cronograma do projeto e as necessidades de recursos e para acompanhar o andamento do projeto em relação ao cronograma. 
+- Membros da equipe do projeto utilizam-no para entender o que precisam fazer, quando precisam fazê-lo e quais são as outras atividades das quais eles dependem.
 
 ## Qual a principal idéia deste projeto?
-Padronizar um formato simples de geração de boletos de cada banco baseado em um padrão composto somente de 3 arquivos php
+ a modalidade digital em forma de jogo do Univag XP, com estilo Top-Down (visão de cima para baixo) de gênero RPG, permitindo ao jogador explorar a representação em pixel art de trechos do campus da Univag.
+O projeto GameVag propõe agregar valor à instituição, tendo em vista o mercado de games, que cresce cada vez mais e sua receita é maior do que a indústria do cinema e da música somados.
+Almejamos trazer ao público, sedo ele: aluno, ex-aluno ou até mesmo potenciais alunos, uma experiência divertida; baseado na nossa experiência com o Univag XP. Mostrando assim para o público que na Instituição tem espaço para os entusiastas e estudiosos do ramo de games.
 
-Tomamos como exemplo o Boleto do Caixa Econômica, onde temos:
+## Principais funcionalidades disponíveis
+-	Movimentar o personagem em oito direções;
+-	Interagir com NPCs para obter informações;
+-	Transição e exploração de cenários;
+-	Resolver puzzles;
+-	Contar pontuação;
+-	Menu iniciar;
+-	Salvamento de progresso.
 
-- boleto_cef.php : Aqui ficam os DADOS usados para a geração do boleto
-- layout_cef.php : Aqui fica a estrutura HTML para a geração do boleto
-- funcoes_cef.php : Aqui ficam as FUNÇOES usadas para a geração do boleto 
-
-## Este conceito do BoletoPHP facilita a criação de boletos de outros bancos?
-Sim, pois facilita para um desenvolvedor para que seja dado continuidade no Projeto BoletoPHP para o desenvolvimento dos demais bancos, pois o principal trabalho para criar o boleto de um novo banco é criar o arquivo php de funções ( no caso acima o funcoes_cef.php) , onde estão as regras de cada banco para a geração das 2 principais informações do boleto que são a Linha Digitável e o Código de Barras, já que no layout_xxxx.php muda apenas a logo do banco e no arquivo boleto_xxxx.php acrescenta poucas variáveis específicas de cada banco.
 
 ## Integrantes da Equipe
-- Germano Manente Neto
-- Matheus Gavelli (preencher o nome completo)
-- Bruno Marques França Araujo (preencher o nome completo)
-- Thiago (preencher o nome completo)
+- Germano Manente Neto - professor orientador do projeto do curso de Sistemas de Informação
+- Bruno Marques França Araujo
+- Deborah Oliveira da Silva
+- - Matheus Gavelli Soares 
+- Thiago Almeida Gonçalves
 
 ## Cronograma de Desenvolvimento - Projeto Integrador I
 
@@ -54,7 +55,7 @@ Sim, pois facilita para um desenvolvedor para que seja dado continuidade no Proj
 |Parecer de Infraestrutura de TI                  | PIN II  | Concepção | 0%   | 27/02/2020 | 10/07/2020 |
 |Especificação de Requisitos                      | PIN II  | Concepção | 0%   | 28/02/2020 | 11/07/2020 |
 |Diagrama de Casos de Uso                         | PIN II  | Concepção | 0%   | 29/02/2020 | 12/07/2020 |
-|Protótipos de Tela  	                          | PIN II  | Concepção | 0%   | 01/03/2020 | 13/07/2020 |
+|Protótipos de Tela  	                            | PIN II  | Concepção | 0%   | 01/03/2020 | 13/07/2020 |
 |Especificação de Caso de Uso                     | PIN III | Elaboração| 0%   | 15/08/2020 | 13/12/2020 |
 |Contagem de Referência (FPA)                     | PIN III | Elaboração| 0%   | 16/08/2020 | 14/12/2020 |
 |Plano de Gerenciamento de Requisitos             | PIN III | Elaboração| 0%   | 17/08/2020 | 15/12/2020 |
@@ -68,3 +69,30 @@ Sim, pois facilita para um desenvolvedor para que seja dado continuidade no Proj
 |Modelo de Dados                                  | PIN III | Elaboração| 0%   | 25/08/2020 | 23/12/2020 |
 |Casos de Teste                                   | PIN III | Elaboração| 0%   | 26/08/2020 | 24/12/2020 |
 |Plano de Implantação                             | PIN III | Elaboração| 0%   | 27/08/2020 | 25/12/2020 |
+|Definir Funcionalidades                          | PIN IV | Elaboração| 100%  | 04/03/2021 | 25/03/2021 |
+| Transições de Cenários                          | PIN IV | Elaboração| 100%  | 04/03/2021 | 25/03/2021 |
+| Portas                                          | PIN IV | Elaboração| 100%  | 04/03/2021 | 25/03/2021 |
+|Definir Modelo da Arte de Capa                   | PIN IV | Elaboração| 100%  | 26/03/2021 | 03/04/2021 |
+| Esboçar Arte para Menu Principal                | PIN IV | Elaboração| 100%  | 04/03/2021 | 25/03/2021 |
+| Inserir Arte no Jogo                            | PIN IV | Elaboração| 100%  | 04/03/2021 | 25/03/2021 |
+|Atualizar Requisitos Funcionais                  | PIN IV | Elaboração| 100%  | 16/04/2021 | 29/04/2021 |
+| Remover Funcionalidades não Usadas              | PIN IV | Elaboração| 100%  | 16/04/2021 | 29/04/2021 |
+| Adequar Funcionalidades Mantidas                | PIN IV | Elaboração| 100%  | 16/04/2021 | 29/04/2021 |
+| Adicionar Funcionalidades Novas                 | PIN IV | Elaboração| 100%  | 16/04/2021 | 29/04/2021 |
+|Implementação de NPC                             | PIN IV | Elaboração| 100%  | 30/04/2021 | 13/05/2021 |
+| Inserir NPCs no Mapa                            | PIN IV | Elaboração| 100%  | 30/04/2021 | 13/05/2021 |
+| Conversação com NPC                             | PIN IV | Elaboração| 100%  | 30/04/2021 | 13/05/2021 |
+|   NPCs Informativos                             | PIN IV | Elaboração| 100%  | 30/04/2021 | 13/05/2021 |
+|   NPCs com Itens                                | PIN IV | Elaboração| 100%  | 30/04/2021 | 13/05/2021 |
+|   NPCs com Missões                              | PIN IV | Elaboração| 100%  | 30/04/2021 | 13/05/2021 |
+| Comportamento dos NPCs                          | PIN IV | Elaboração| 100%  | 30/04/2021 | 13/05/2021 |
+|Implantação de Missão                            | PIN IV | Elaboração| 62%   | 15/05/2021 | 17/06/2021 |
+| Zonas de Evento                                 | PIN IV | Elaboração| 99%   | 15/05/2021 | 17/06/2021 |
+| Eventos                                         | PIN IV | Elaboração| 99%   | 15/05/2021 | 17/06/2021 |
+|   Formular Desafios e Puzzles                   | PIN IV | Elaboração| 50%   | 15/05/2021 | 17/06/2021 |
+|   Gerador de Pontuação                          | PIN IV | Elaboração| 00%   | 15/05/2021 | 17/06/2021 |
+|Atualização do Cronograma                        | PIN IV | Elaboração| 99%   | 03/03/2021 | 29/06/2021 |
+|Atualização do Documentação                      | PIN IV | Elaboração| 100%  | 18/06/2021 | 28/06/2021 |
+|Transferir Tabela de Requisitos Para o Documento 
+ de Especificações de Regras de Negócio           | PIN IV | Elaboração| 100%  | 18/06/2021 | 28/06/2021 |
+|Desnevolvimento da Beta                          | PIN IV | Elaboração| 94%   | 04/03/2021 | 29/06/2021 |
