@@ -93,6 +93,5 @@ Almejamos trazer ao público, sedo ele: aluno, ex-aluno ou até mesmo potenciais
 |   Gerador de Pontuação                          | PIN IV | Elaboração| 00%   | 15/05/2021 | 17/06/2021 |
 |Atualização do Cronograma                        | PIN IV | Elaboração| 99%   | 03/03/2021 | 29/06/2021 |
 |Atualização do Documentação                      | PIN IV | Elaboração| 100%  | 18/06/2021 | 28/06/2021 |
-|Transferir Tabela de Requisitos Para o Documento 
- de Especificações de Regras de Negócio           | PIN IV | Elaboração| 100%  | 18/06/2021 | 28/06/2021 |
+|Transferir Tabela de Requisitos Para o Documento de Especificações de Regras de Negócio           | PIN IV | Elaboração| 100%  | 18/06/2021 | 28/06/2021 |
 |Desnevolvimento da Beta                          | PIN IV | Elaboração| 94%   | 04/03/2021 | 29/06/2021 |
